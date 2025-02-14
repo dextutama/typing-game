@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タイピングゲーム</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>タイピングゲーム</h1>
+    <p id="word">単語がここに表示される</p>
+    <input type="text" id="input" autofocus>
+    <button onclick="checkWord()">送信</button>
+    <div id="reward" style="display: none;">
+        <h2>クリア報酬！</h2>
+        <img id="rewardImg" src="" alt="報酬スチル">
+        <a id="downloadLink" href="#" download>画像をダウンロード</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
